@@ -136,6 +136,15 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.hero-form button {
+    color: var(--primary-color);
+    background-color: var(--seondary-color);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
 .hero-form button:hover {
     background-color: var(--tertiary-color);  
 }
@@ -168,15 +177,6 @@ section {
 
 .hero-form label {
     margin: 0 5px;
-}
-
-.hero-form button {
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 10px;
 }
 
 .checkbox-wrapper input, .radio-wrapper input {
